@@ -2,7 +2,7 @@
 
 This notebook combines three Tigrinya speech datasets into a single unified ASR corpus and pushes it to your Hugging Face Hub account.
 
-  **The combined dataset is available on huggingface here:**  [https://huggingface.co/datasets/Harbidel/tigrinya-asr-merged]
+  **The combined dataset is available on huggingface here:** [tigrinya-asr-merged] (https://huggingface.co/datasets/Harbidel/tigrinya-asr-merged)
 
 ## Dataset Sources
 
