@@ -36,10 +36,6 @@ The merged dataset will have three splits:
 - `validation`: 10% holdout from the training pool.
 - `test`: SimbaBench (kept intact as a clean benchmark).
 
-## License
-
-Before pushing publicly, check each source dataset's license/card to confirm redistribution as a merged dataset is allowed. Most CC‑BY style licenses are fine, but always verify — and double‑check SimbaBench's license/terms specifically, since benchmark datasets sometimes carry stricter redistribution terms than plain speech corpora.
-
 ## Requirements
 
 This notebook was designed to run in Google Colab. The required packages are installed automatically in section 1.
