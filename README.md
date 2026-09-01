@@ -2,7 +2,7 @@
 
 This notebook combines three Tigrinya speech datasets into a single unified ASR corpus and pushes it to your Hugging Face Hub account.
 
-  **The combined dataset is available on huggingface here:** [tigrinya-asr-merged](https://huggingface.co/datasets/Harbidel/tigrinya-asr-merged)
+  **The combined dataset is available on huggingface here:** [Tigrinya-ASR-Merged](https://huggingface.co/datasets/Harbidel/tigrinya-asr-merged)
 
 ## Dataset Sources
 
@@ -63,5 +63,12 @@ The `role` field in `COLUMN_MAP` controls what happens to each source:
 - `"held_out_test"`: Kept completely separate, becomes the final `test` split.
 
 ---
+## Requirements
 
-**Note**: The notebook file itself is `merge_tigrinya_asr.ipynb`. This README describes its purpose and usage.
+- Python 3.9+
+- `datasets`, `huggingface_hub`, `soundfile`, `librosa`
+
+## License
+
+The merge notebook itself has no license restrictions; the resulting
+dataset's license follows the terms of the source datasets it combines
