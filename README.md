@@ -1,8 +1,10 @@
 # Tigrinya ASR Dataset Merger
 
-This notebook combines three Tigrinya speech datasets into a single unified ASR corpus and pushes it to your Hugging Face Hub account.
+Notebook that combines three Tigrinya speech-recognition datasets from the
+Hugging Face Hub into a single, deduplicated, re-split corpus, and pushes
+the result to the Hub.
 
-  **The combined dataset is available on huggingface here:** [Tigrinya-ASR-Merged](https://huggingface.co/datasets/Harbidel/tigrinya-asr-merged)
+**The combined dataset is available on huggingface here:** [Tigrinya-ASR-Merged](https://huggingface.co/datasets/Harbidel/tigrinya-asr-merged)
 
 ## Dataset Sources
 
